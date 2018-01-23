@@ -1,3 +1,281 @@
 body {
-  font-family: arial, sans-serif
+  font-family: arial, sans-serif;
+  color: rgb(34, 34, 34);
+}
+
+nav {
+  width: 100%;
+  display: block;
+  font-size: 13px;
+  position: absolute;
+}
+
+#left-nav {
+  float: left;
+  padding-right: 30px;
+  padding-left: 30px;
+  display: flex;
+}
+
+#left-nav .nav-item {
+  padding-right: 15px;
+}
+
+#right-nav {
+  float: right;
+  padding-right: 30px;
+  padding-left: 30px;
+  display: flex;
+}
+
+#right-nav .nav-item {
+  padding-right: 15px;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 15.4333px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.nav-item{
+  padding-left: 20px;
+}
+
+#matrix-button {
+  background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+  background-position: -132px -38px;
+  background-position-x: -132px;
+  background-position-y: -38px;
+  background-size: 528px 68px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  opacity: 0.55;
+  vertical-align: middle;
+  width: 30px;
+}
+
+#signin-button {
+  background-image: -moz-linear-gradient(rgb(67, 135, 253), rgb(70, 131, 234));
+  background-origin: padding-box;
+  background-position: 0% 0%;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border-bottom-color: rgb(66, 133, 244);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0;
+  border-image-repeat: stretch stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(66, 133, 244);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(66, 133, 244);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(66, 133, 244);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 0px 0px;
+  color: rgb(255, 255, 255);
+  cursor: default;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 28px;
+  outline-color: rgb(255, 255, 255);
+  outline-style: none;
+  outline-width: 0px;
+  padding-bottom: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 0px;
+  text-align: left;
+  text-decoration: none;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  white-space: nowrap;
+}
+
+
+.logo {
+  color: rgb(34, 34, 34);
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  height: 233px;
+  margin-top: 89px;
+}
+
+#hplogo {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  padding-top: 109px;
+}
+
+
+form {
+  background-attachment: scroll;
+  background-clip: border-box;
+  overflow: visible;
+  overflow-x: visible;
+  overflow-y: visible;
+  width: 100%;
+  font-family: arial, sans-serif;
+  margin-top: 1px;
+  padding-left: 173px;
+  padding-right: 173px;
+  padding-top: 8px;
+  position: relative;
+  margin-top: 0px;
+  min-width: 980px;
+  position: absolute;
+  top: 311px;
+  z-index: 103;
+}
+
+form .query {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  margin-top: -3px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  width: 459px;
+  position: relative;
+  overflow: visible;
+  overflow-x: visible;
+  overflow-y: visible;
+  box-sizing: border-box;
+  height: 44px;
+  line-height: 0px;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-left: 10px;
+  padding-right: 3px;
+  unicode-bidi: isolate;
+  white-space: nowrap;
+
+
+}
+
+form .search-button {
+  background-color: rgb(242, 242, 242);
+  background-image: -moz-linear-gradient(rgb(245, 245, 245), rgb(241, 241, 241));
+  border-bottom-color: rgb(242, 242, 242);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0;
+  border-image-repeat: stretch stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(242, 242, 242);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(242, 242, 242);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(242, 242, 242);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  color: rgb(117, 117, 117);
+  cursor: default;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  height: 36px;
+  line-height: 27px;
+  margin-bottom: 11px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 11px;
+  min-width: 54px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 0px;
+  text-align: center;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  -moz-user-select: none;
+}
+
+form .lucky-button {
+  background-color: rgb(242, 242, 242);
+background-image: -moz-linear-gradient(rgb(245, 245, 245), rgb(241, 241, 241));
+border-bottom-color: rgb(242, 242, 242);
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-image-outset: 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(242, 242, 242);
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: rgb(242, 242, 242);
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: rgb(242, 242, 242);
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+border-top-style: solid;
+border-top-width: 1px;
+color: rgb(117, 117, 117);
+cursor: default;
+font-family: arial, sans-serif;
+font-size: 13px;
+font-weight: 700;
+height: 36px;
+line-height: 27px;
+margin-bottom: 11px;
+margin-left: 4px;
+margin-right: 4px;
+margin-top: 11px;
+min-width: 54px;
+padding-bottom: 0px;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 0px;
+text-align: center;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+-moz-user-select: none;
+}
+
+center {
+font-family: arial, sans-serif;
+font-size: 13px;
+padding-top: 18px;
 }
