@@ -3,22 +3,30 @@ body {
   color: rgb(34, 34, 34);
 }
 
-nav {
+.nav {
   width: 100%;
   display: block;
   font-size: 13px;
   position: absolute;
+  vertical-align: middle;
+  color: rgb(34, 34, 34);
 }
+
 
 #left-nav {
   float: left;
   padding-right: 30px;
   padding-left: 30px;
   display: flex;
+  vertical-align: middle;
 }
 
 #left-nav .nav-item {
   padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+
 }
 
 #right-nav {
@@ -26,6 +34,9 @@ nav {
   padding-right: 30px;
   padding-left: 30px;
   display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
 }
 
 #right-nav .nav-item {
@@ -39,10 +50,12 @@ nav {
   line-height: 15.4333px;
   margin-left: 0px;
   margin-right: 0px;
+  vertical-align: middle;
 }
 
 .nav-item{
   padding-left: 20px;
+  height: 30px;
 }
 
 #matrix-button {
@@ -134,32 +147,15 @@ nav {
 
 
 form {
-  background-attachment: scroll;
-  background-clip: border-box;
-  overflow: visible;
-  overflow-x: visible;
-  overflow-y: visible;
-  width: 100%;
-  font-family: arial, sans-serif;
-  margin-top: 1px;
-  padding-left: 173px;
-  padding-right: 173px;
-  padding-top: 8px;
-  position: relative;
-  margin-top: 0px;
-  min-width: 980px;
-  position: absolute;
-  top: 311px;
-  z-index: 103;
+  text-align: center;
 }
 
 form .query {
   font-family: arial, sans-serif;
   font-size: 16px;
-  margin-top: -3px;
   padding-bottom: 3px;
   padding-top: 3px;
-  width: 459px;
+  min-width: 459px;
   position: relative;
   overflow: visible;
   overflow-x: visible;
@@ -174,9 +170,9 @@ form .query {
   padding-right: 3px;
   unicode-bidi: isolate;
   white-space: nowrap;
-
-
-}
+  margin-left: auto;
+  margin-right: auto;
+  }
 
 form .search-button {
   background-color: rgb(242, 242, 242);
@@ -278,4 +274,52 @@ center {
 font-family: arial, sans-serif;
 font-size: 13px;
 padding-top: 18px;
+width: 100%;
+}
+
+footer {
+  background-color:rgb(242, 242, 242);
+  background-clip: border-box;
+  border-top-color: rgb(228, 228, 228);
+  border-top-style: solid;
+  border-top-width: 1px;
+  left: 0px;
+  line-height: 40px;
+  min-width: 980px;
+  position: absolute;
+  right: 0px;
+  color:rgb(102, 102, 102);
+  display: inline-block;
+  font-size:13.3333px;
+  position:fixed;
+	bottom:0;
+	z-index:999999;
+
+}
+
+#footer-left {
+  left: 0px;
+line-height: 40px;
+min-width: 980px;
+position: absolute;
+right: 0px;
+
+}
+
+#footer-left a {
+  padding-left:27;
+}
+
+#footer-right a {
+  padding-right:27;
+}
+
+#footer-right {
+  float: right;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 40px;
+  margin-right: 30px;
+  visibility: visible;
+  white-space: nowrap;
 }
